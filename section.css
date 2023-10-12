@@ -1,0 +1,328 @@
+.section {
+    /* background-color: aqua; */
+    position: absolute;
+    margin-top: 105px;
+    display: flex;
+}
+
+.section .textbox {
+    width: 427px;
+    height: 496px;
+    /* background-color: antiquewhite; */
+    margin-top: 114px;/*219px - 105px*/
+    margin-left: 209px;
+}
+
+.textbox .heading {
+    /* background-color: burlywood; */
+    width: 424px;
+    height: 217px;
+    margin-left: 3px;
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    color: white;
+    letter-spacing: -1px;
+}
+
+.textbox .paragraph {
+    /* background-color: burlywood; */
+    width: 363px;
+    height: 160px;
+    margin-left: 3px;
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color: white;
+}
+
+.textbox .middle-fill {
+    width: 157px;
+    height: 50px;
+    margin-top: 45px;
+    margin-left: 0;
+}
+
+.textbox .middle-fill .btn {
+    width: 157px;
+    height: 50px;
+    background-color: #E93A7D;
+    border: 0 solid #E93A7D;
+    border-radius: 100px;
+}
+
+.textbox .middle-fill .btn p {
+    width: 96px;
+    height: 26px;
+    margin-top: 12px;
+    margin-top: 0;
+    margin-left: 31px;
+    color: white;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Styling the sign up section */
+.section .signup {
+    width: 470px;
+    height: 600px;
+    margin-top: 82px;/*187px - 105px*/
+    margin-left: 79px;/*715px - 636px*/
+    background-color: white;
+    /* border: 3px solid #EBEAED; */
+    border-radius: 10px;
+    color: #EBEAED;
+}
+
+.signup .heading {
+    /* background-color: burlywood; */
+    width: 247px;
+    height: 52px;
+    margin-left: 114px;/*829px - 715px*/
+    margin-top: 48px;/*235px - 187px*/
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    color: #1E0E62;
+    letter-spacing: -0.4px;
+    text-align: center;
+}
+
+.signup .middle-dark-outline #emailid {
+    width: 330px;
+    height: 50px;
+    margin-top: 34px;/*321px - 287px*/
+    margin-left: 70px;/*785px - 715px*/
+}
+
+.signup .middle-dark-outline #pswrd {
+    width: 330px;
+    height: 50px;
+    margin-top: 20px;/*391px - 371px*/
+    margin-left: 70px;/*785px - 715px*/
+}
+
+#emailid,
+#pswrd {
+    width: 330px;
+    height: 50px;
+    border: 2px solid #EBEAED;
+    border-radius: 100px;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+#emailid::placeholder {
+    width: 88px;
+    height: 26px;
+    color: #151439;
+    opacity: 40%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    padding-left: 24px;
+    /*space left on top and bottom of placeholder is 12px and 12px respectively*/
+}
+
+#pswrd::placeholder {
+    width: 125px;
+    height: 26px;
+    color: #151439;
+    opacity: 40%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    padding-left: 24px;
+    /*space left on top and bottom of placeholder is 12px and 12px respectively*/
+}
+
+.signup .checkbox-section {
+    display: flex;
+    width: 265px;
+    height: 26.4px;
+    margin-top: 30px;/*471px - 441px*/
+    margin-left: 70px;/*785px - 715px*/
+    /* background-color: antiquewhite; */
+}
+
+.checkbox-section .checked-on {
+    width: 24px;
+    height: 24px;
+}
+
+.checked-on .square-box {
+    width: 24px;
+    height: 24px;
+    background-color: #25DAC5;
+    border-radius: 6px;
+}
+
+.square-box img {
+    margin: 0 auto;
+}
+
+.square-box .check-icon {
+    width: 9.6px;
+    height: 6px;
+    margin-top: 9.6px;
+    margin-left: 16.8px;
+    margin-top: 8.6px;
+    margin-left: 6.8px;    
+    /* border: 2px solid #1E0E62; */
+}
+
+.checkbox-section .checked-text {
+    width: 228px;
+    height: 26px;
+    margin-top: 0.4px;
+    margin-left: 13px;
+    /* background-color: burlywood; */
+}
+
+.checked-text p {
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 15.9px;
+    line-height: 26px;
+    color: #151439;
+    opacity: 40%;
+}
+
+.middle-fill-top {
+    width: 330px;
+    height: 50px;
+    margin-top: 27.6px;/*525px - 497.4px*/
+    margin-left: 70px;/*785px - 715px*/
+}
+
+.middle-fill-top #sign-in {
+    width: 330px;
+    height: 50px;
+    border-radius: 100px;
+    border: 0 solid #482BE7;
+    background-color: #482BE7;
+}
+
+#sign-in p {
+    width: 56px;
+    height: 26px;
+    margin-top: 12px;
+    margin-top: 0;
+    margin-left: 137px;
+    font-weight: 500;
+    font-size: 18px;
+    font-size: 17.9px;
+    line-height: 26px;
+    align-items: center;
+    color: white;
+}
+
+.divider {
+    display: flex;
+    width: 328px;
+    height: 26px;
+    margin-top: 18.4px;/*593.4px - 575px*/
+    margin-left: 69.5px;/*784.5px - 715px*/
+}
+
+.divider-left {
+    width: 141.57px;
+    height: 2px;
+    height: 0;
+    margin-top: 11.1px;
+    margin-top: 12.1px;
+    border: 2px solid #EBEAED;
+}
+
+.divider .or {
+    width: 16px;
+    height: 26px;
+    margin-left: 12.93px;
+}
+
+.or p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #151439;
+    opacity: 90%;
+}
+
+.divider-right {
+    width: 141.57px;
+    height: 2px;
+    height: 0;
+    margin-top: 11.1px;
+    margin-top: 12.1px;
+    margin-left: 15.93px;
+    border: 2px solid #EBEAED;
+}
+
+.middle-fill-bottom {
+    width: 330px;
+    height: 50px;
+    margin-top: 16.6px;/*636px - 619.4px*/
+    margin-left: 70px;/*785px - 715px*/
+}
+
+.middle-fill-bottom #twitter-login {
+    width: 330px;
+    height: 50px;
+    border-radius: 100px;
+    border: 0 solid #1DA1F2;
+    background-color: #1DA1F2;
+}
+
+#twitter-login p {
+    width: 138px;
+    height: 26px;
+    margin-top: 12px;
+    margin-top: 0;
+    margin-left: 96px;
+    font-weight: 500;
+    font-size: 18px;
+    font-size: 17.9px;
+    line-height: 26px;
+    align-items: center;
+    color: white;
+}
+
+.account-exists {
+    display: flex;
+    height: 28px;
+    margin-top: 30px;/*716px - 686px*/
+    margin-left: 100px;/*815px - 715px*/
+}
+
+.account-exists .account-exists-text {
+    width: 215px;
+    height: 28px;
+    margin-left: 0;
+}
+
+.account-exists-text p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #151439;
+    opacity: 40%;
+}
+
+.account-exists .sign-in-text {
+    width: 56px;
+    height: 28px;
+    margin-left: 10px;
+}
+
+.sign-in-text p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #25DAC5;
+}

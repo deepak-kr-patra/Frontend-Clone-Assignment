@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header_14 {
+    width: 1400px;
+    height: 890px;
+    background-color: #2F1893;
+    margin: auto;
+    font-family: 'DM Sans', sans-serif;
+}

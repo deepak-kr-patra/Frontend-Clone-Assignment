@@ -1,0 +1,92 @@
+.header-menu {
+    position: absolute;
+    display: flex;
+    width: 972px;
+    height: 40px;
+    margin-top: 65px;
+    margin-left: 213px;
+}
+
+.header-menu .text-white {
+    width: 111px;
+    height: 19px;
+    margin-top: 9px;/*74px - 65px*/
+}
+
+.header-menu .text-white p {
+    /* width: 106x; */
+    height: 32px;
+    line-height: 31.25px;
+    margin-top: -6px;
+    margin-left: 2px;
+    letter-spacing: -0.29px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header-menu .menu {
+    position: absolute;
+    width: 503px;
+    height: 40px;
+    /* margin-top: 65px; */
+    left: 469px;/*682px - 213px*/
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    /* justify-content: space-around; */
+}
+
+.menu ul li p {
+    /* width: 80px; */
+    height: 26px;
+    margin-top: 7.4px;
+    color: white;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.menu ul #overview {
+    width: 80px;
+    margin-left: 0px;
+    opacity: 30%;
+}
+.menu ul #prices {
+    width: 53px;
+    margin-left: 33px;
+}
+.menu ul #blog {
+    width: 36px;
+    margin-left: 30px;
+}
+.menu ul #feedback {
+    width: 84px;
+    margin-left: 33px;
+    margin-right: 34px;
+}
+
+.menu .middle-fill {
+    width: 120px;
+    height: 40px;
+}
+
+.menu .middle-fill .btn {
+    width: 120px;
+    height: 40px;
+    background-color: #E93A7D;
+    border: 0 solid #E93A7D;
+    border-radius: 100px;
+}
+
+.menu .middle-fill .btn p {
+    width: 79px;
+    height: 26px;
+    margin-top: -0.4px;
+    margin-left: 21px;
+    text-align: center;
+}
